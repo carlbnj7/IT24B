@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #4B0082, #FFD700);
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1.header {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+img.profile-img {
+    display: block;
+    margin: 0 auto 1.5rem;
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    color: #4B0082; /* Indigo text */
+    border-bottom: 3px solid #FFD700; /* Gold underline */
+    padding-bottom: 0.5rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.subheader {
+    color: #4B0082; /* Indigo text */
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0.5rem 0 1rem;
+}
+
+hr.divider {
+    border: none;
+    height: 2px;
+    background-color: #4B0082; /* Indigo divider */
+    margin: 2rem 0;
+}
+
+hr.rounded {
+    border: none;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 100%);
+    margin: 2rem 0;
+}
